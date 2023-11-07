@@ -1,0 +1,140 @@
+body {
+    background-color: #fff;
+    color: #fff;
+    font-family: 'Aldrich', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.header-left img {
+    height: 50px;
+}
+
+.header-middle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.searchResults {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.filePath {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    max-width: 600px;
+    width: 100%;
+}
+
+#search-input {
+    flex: 1;
+    width: 45%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+}
+
+#search-button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header-right a {
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+#search-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 2px;
+    background-color: #fff;
+    color: #000;
+}
+
+#file-path {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 2px;
+    background-color: #fff;
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+#file-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 2px;
+    background-color: #fff;
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post p {
+    margin-bottom: 0;
+}
